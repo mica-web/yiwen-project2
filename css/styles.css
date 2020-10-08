@@ -12,7 +12,7 @@ li {
 
 main {
   display: grid;
-  grid-template-columns: repeat(4);
+  grid-template-columns: repeat(3, 160px);
 }
 
 ul {
