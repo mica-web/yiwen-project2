@@ -24,3 +24,8 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+
+.circle {
+  background-color: #0240f4;
+  border-radius: 50px;
+}
