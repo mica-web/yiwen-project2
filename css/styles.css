@@ -17,15 +17,25 @@ li {
 main {
   display: grid;
   grid-template-columns: repeat(3, 160px);
+  grid-template-rows: repeat(16, 160px);
 }
 
 ul {
-  font-size: 22px;
+  font-size: 16px;
   list-style-type: none;
   padding-left: 0;
 }
 
 .circle {
+  border-radius: 80px;
+}
+
+.circlesquare {
+  border-radius: 80px 0 0 80px;
+}
+
+.circle,
+.circlesquare,
+.square {
   background-color: #0240f4;
-  border-radius: 50px;
 }
