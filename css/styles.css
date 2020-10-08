@@ -1,17 +1,15 @@
-/* Error: Expected identifier.
- *    ,
- * 10 | h1:{
- *    |    ^
- *    '
- *   sass/styles.scss 10:4  root stylesheet */
+* {
+  box-sizing: border-box;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    \2577 \a 10 \2502  h1:{\a    \2502     ^\a    \2575 \a   sass/styles.scss 10:4  root stylesheet";
+h1,
+h2,
+h3,
+li {
+  color: #0240f4;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
 }

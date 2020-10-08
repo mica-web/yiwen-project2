@@ -1,12 +1,23 @@
 $font-sans:'Open Sans',
 sans-serif;
 
-//font-family: 'Open Sans', sans-serif;
+$blue:#0240f4;
 
 * {
     box-sizing: border-box;
 }
 
-h1: {
+//h1, h2, h3: { font-family: $font-sans;}
+
+h1,
+h2,
+h3,
+li {
+    color: $blue;
     font-family: $font-sans;
+}
+
+
+ul {
+    list-style-type: none;
 }
