@@ -14,6 +14,11 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 
+h3 {
+  display: inline-block;
+  margin: 0;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(3, 160px);
@@ -120,4 +125,69 @@ ul {
 .g5,
 .g6 {
   grid-row: 14/15;
+}
+
+.h1 {
+  grid-row: 15/16;
+}
+
+.h4 {
+  grid-row: 16/17;
+}
+
+.a1,
+.b1,
+.c1,
+.d1,
+.e1,
+.f1,
+.g1,
+.h1,
+.a4,
+.b4,
+.c4,
+.d4,
+.e4,
+.f4,
+.g4,
+.h4 {
+  grid-column: 1/2;
+}
+
+.a2,
+.b2,
+.c2,
+.d2,
+.e2,
+.f2,
+.g2,
+.h2,
+.a5,
+.b5,
+.c5,
+.d5,
+.e5,
+.f5,
+.g5,
+.h5 {
+  grid-column: 2/3;
+}
+
+.a3,
+.b3,
+.c3,
+.d3,
+.e3,
+.f3,
+.g3,
+.h3,
+.a6,
+.b6,
+.c6,
+.d6,
+.e6,
+.f6,
+.g6,
+.h6 {
+  grid-column: 3/4;
 }
