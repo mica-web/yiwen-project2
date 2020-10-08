@@ -3,11 +3,13 @@ sans-serif;
 
 $blue:#0240f4;
 
+//variables
+
 * {
     box-sizing: border-box;
 }
 
-//h1, h2, h3: { font-family: $font-sans;}
+//*
 
 body {
     margin: 0;
@@ -54,7 +56,7 @@ ul {
     background-color: $blue;
 }
 
-//
+//grphics
 
 .a1,
 .a3 {
