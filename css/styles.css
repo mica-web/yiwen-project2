@@ -39,3 +39,13 @@ ul {
 .square {
   background-color: #0240f4;
 }
+
+.a1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.a3 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
