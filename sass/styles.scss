@@ -3,8 +3,10 @@ sans-serif;
 
 //font-family: 'Open Sans', sans-serif;
 
-h1,
-h2,
-h3: {
+* {
+    box-sizing: border-box;
+}
+
+h1: {
     font-family: $font-sans;
 }
