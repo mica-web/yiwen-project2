@@ -22,7 +22,7 @@ body {
 
 h1 {
     font-size: 160px;
-    line-height: 202px;
+    line-height: 197px;
     margin: 0;
 }
 
@@ -91,6 +91,14 @@ ul {
 .circlesquare,
 .square {
     background-color: $blue;
+}
+
+.circle,
+.circlesquare,
+.square {
+    &:hover {
+        background-color: white;
+    }
 }
 
 //grids

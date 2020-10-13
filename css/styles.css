@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-size: 160px;
-  line-height: 202px;
+  line-height: 197px;
   margin: 0;
 }
 
@@ -77,6 +77,12 @@ ul {
 .circlesquare,
 .square {
   background-color: #0240f4;
+}
+
+.circle:hover,
+.circlesquare:hover,
+.square:hover {
+  background-color: white;
 }
 
 .a1,
