@@ -1,6 +1,6 @@
 /* Error: expected ";".
  *   ,
- * 6 | $square-cell: minmax(160px, min(280px, 30vw));
+ * 6 | $square-cell:minmax(160px, min(280px, 30vw));
  *   |             ^
  *   '
  *   sass/styles.scss 6:13  root stylesheet */
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 6 \2502  $square-cell: minmax(160px, min(280px, 30vw));\a   \2502              ^\a   \2575 \a   sass/styles.scss 6:13  root stylesheet';
+  content: 'Error: expected ";".\a   \2577 \a 6 \2502  $square-cell:minmax(160px, min(280px, 30vw));\a   \2502              ^\a   \2575 \a   sass/styles.scss 6:13  root stylesheet';
 }
