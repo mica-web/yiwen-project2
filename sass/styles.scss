@@ -1,7 +1,7 @@
 $font-sans:'Open Sans',
 sans-serif;
-
-$blue:#0240f4 $square-cell:minmax(160px, min(280px, 30vw));
+$blue:#0240f4;
+$square-cell:minmax(160px, min(280px, 30vw));
 
 * {
     box-sizing: border-box;
@@ -36,14 +36,14 @@ h3 {
 
 main {
     display: grid;
-    grid-template-columns: $square-cell);
-    grid-template-rows: $square-cell);
+    grid-template-columns: $square-cell;
+    grid-template-rows: $square-cell;
 }
 
 header,
 footer {
     display: grid;
-    grid-template-columns: $square-cell);
+    grid-template-columns: $square-cell;
     grid-template-rows: auto;
 }
 
@@ -256,3 +256,4 @@ ul {
 
 .k2 {
     grid-column: 3/4;
+}
