@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+  align-self: baseline;
   font-size: 160px;
   line-height: 92px;
   margin: 0;
