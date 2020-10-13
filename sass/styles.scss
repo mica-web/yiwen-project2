@@ -1,15 +1,16 @@
+//variables
 $font-sans:'Open Sans',
 sans-serif;
 
 $blue:#0240f4;
 
-//variables
+//*
 
 * {
     box-sizing: border-box;
 }
 
-//*
+//text
 
 body {
     background-color: white;
@@ -50,7 +51,21 @@ ul {
     margin-top: 0;
 }
 
-//
+.nine,
+.sixteen {
+    line-height: 130px;
+}
+
+.ten,
+.eleven,
+.twelve,
+.sixteen,
+.seventeen,
+.eighteen {
+    text
+}
+
+//graphics
 
 .circle {
     border-radius: 80px;
@@ -66,7 +81,7 @@ ul {
     background-color: $blue;
 }
 
-//grphics
+//grids
 
 .a1,
 .a3 {
