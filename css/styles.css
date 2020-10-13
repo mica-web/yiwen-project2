@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  align-self: end;
+  justify-s: end;
   font-size: 160px;
   margin: 0;
 }
