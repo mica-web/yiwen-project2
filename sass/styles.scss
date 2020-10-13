@@ -35,6 +35,13 @@ main {
     grid-template-rows: repeat(16, 160px);
 }
 
+header,
+footer {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 80px;
+}
+
 ul {
     list-style-type: none;
     padding-left: 5px;
