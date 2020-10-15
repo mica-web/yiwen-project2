@@ -264,22 +264,41 @@ ul {
   }
 
   h1 {
-    font-size: 195px;
-    line-height: 250px;
+    font-size: 160px;
+    line-height: 197px;
   }
 
   h2 {
-    font-size: 195px;
-    line-height: 150px;
+    font-size: 160px;
+    line-height: 124px;
   }
 
   .twentynineteen {
-    line-height: 240px;
+    line-height: 195px;
   }
 }
 @media (min-width: 1000px) {
   body {
-    min-width: 100%;
+    min-width: 90%;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 160px;
+    line-height: 195px;
+  }
+
+  h2 {
+    font-size: 160px;
+    line-height: 124px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .twentynineteen {
+    line-height: 240px;
   }
 
   main {
@@ -421,5 +440,21 @@ footer {
 .g6,
 .i6 {
     grid-column: 6/7;
+  }
+
+  .j1 {
+    grid-column: 1/3;
+  }
+
+  .j2 {
+    grid-column: 4/7;
+  }
+
+  .k1 {
+    grid-column: 1/4;
+  }
+
+  .k2 {
+    grid-column: 5/6;
   }
 }
