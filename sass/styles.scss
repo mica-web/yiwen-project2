@@ -270,11 +270,11 @@ ul {
 //-----------------------------------------------
 
 @media (min-width: 600px) {
-
-    //text
     body {
         font-size: 18px;
         max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     main {
@@ -282,18 +282,17 @@ ul {
     }
 
     h1 {
-        font-size: 160px;
-        line-height: 197px;
+        font-size: 195px;
+        line-height: 250px;
     }
 
     h2 {
-        font-size: 160px;
-        line-height: 124px;
+        font-size: 195px;
+        line-height: 150px;
     }
 
-
     .twentynineteen {
-        line-height: 195px;
+        line-height: 240px;
     }
 }
 
@@ -480,5 +479,29 @@ ul {
 
     .k2 {
         grid-column: 5/6;
+    }
+}
+
+//-----------------------------------------------
+
+@media (min-width: 1250px) {
+
+    body {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    h1 {
+        font-size: 195px;
+        line-height: 250px;
+    }
+
+    h2 {
+        font-size: 195px;
+        line-height: 150px;
+    }
+
+    .twentynineteen {
+        line-height: 240px;
     }
 }
