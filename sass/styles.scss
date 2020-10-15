@@ -112,7 +112,41 @@ ul {
 
 //grids
 
-//@media (max-width: 800px) {}
+@media (min-width: 580px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 200px;
+        line-height: 197px;
+    }
+
+    h2 {
+        font-size: 200px;
+        line-height: 124px;
+    }
+
+    .twentynineteen {
+        letter-spacing: -15px;
+        line-height: 195px;
+    }
+
+    .sixteen {
+        line-height: 123px;
+    }
+
+    .ten,
+    .eleven,
+    .twelve,
+    .sixteen,
+    .seventeen,
+    .eighteen {
+        letter-spacing: -25px;
+        margin-left: -7px;
+    }
+
+}
 
 
 @media (max-width: 1000px) {
