@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   body {
     background-color: white;
     color: #0240f4;
@@ -26,7 +26,7 @@
   h2 {
     align-items: baseline;
     font-size: 160px;
-    line-height: 124px;
+    line-height: 125px;
     margin: 0;
   }
 
@@ -56,6 +56,10 @@ footer {
   .twentynineteen {
     letter-spacing: -15px;
     line-height: 195px;
+  }
+
+  .sixteen {
+    line-height: 123px;
   }
 
   .ten,

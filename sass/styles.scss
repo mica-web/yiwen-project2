@@ -7,7 +7,7 @@ $square-cell:minmax(160px, min(280px, 30vw));
     box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     //text
 
     body {
@@ -33,7 +33,7 @@ $square-cell:minmax(160px, min(280px, 30vw));
     h2 {
         align-items: baseline;
         font-size: 160px;
-        line-height: 124px;
+        line-height: 125px;
         margin: 0;
     }
 
@@ -67,10 +67,9 @@ $square-cell:minmax(160px, min(280px, 30vw));
         line-height: 195px;
     }
 
-    //.nine,
-    //.sixteen {
-    //line-height: 130px;
-    //}
+    .sixteen {
+        line-height: 123px;
+    }
 
     .ten,
     .eleven,
@@ -265,3 +264,5 @@ $square-cell:minmax(160px, min(280px, 30vw));
         grid-column: 3/4;
     }
 }
+
+@media (max-width: 1536px) {}
