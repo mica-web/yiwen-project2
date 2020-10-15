@@ -107,7 +107,7 @@ ul {
 
 //grids
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
 
     .a1,
     .a3 {
@@ -267,18 +267,18 @@ ul {
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1000px) {
 
     main {
         display: grid;
-        grid-template-columns: repeat(6, $square-cell);
-        grid-template-rows: repeat(8, $square-cell);
+        grid-template-columns: repeat(6, $square-cell2);
+        grid-template-rows: repeat(8, $square-cell2);
     }
 
     header,
     footer {
         display: grid;
-        grid-template-columns: repeat(6, $square-cell);
+        grid-template-columns: repeat(6, $square-cell2);
         grid-template-rows: auto;
     }
 

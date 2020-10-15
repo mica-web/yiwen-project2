@@ -91,7 +91,7 @@ ul {
   background-color: white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .a1,
 .a3 {
     grid-row: 1/2;
@@ -249,17 +249,17 @@ ul {
     grid-column: 3/4;
   }
 }
-@media (min-width: 767px) {
+@media (min-width: 1000px) {
   main {
     display: grid;
-    grid-template-columns: repeat(6, minmax(100px, min(300px, 33vw)));
-    grid-template-rows: repeat(8, minmax(100px, min(300px, 33vw)));
+    grid-template-columns: repeat(6, minmax(100px, min(300px, 16vw)));
+    grid-template-rows: repeat(8, minmax(100px, min(300px, 16vw)));
   }
 
   header,
 footer {
     display: grid;
-    grid-template-columns: repeat(6, minmax(100px, min(300px, 33vw)));
+    grid-template-columns: repeat(6, minmax(100px, min(300px, 16vw)));
     grid-template-rows: auto;
   }
 
