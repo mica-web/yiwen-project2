@@ -36,14 +36,14 @@
 
   main {
     display: grid;
-    grid-template-columns: repeat(3, minmax(160px, min(280px, 30vw)));
-    grid-template-rows: repeat(16, minmax(160px, min(280px, 30vw)));
+    grid-template-columns: repeat(3, minmax(160px, min(256px, 30vw)));
+    grid-template-rows: repeat(16, minmax(160px, min(256px, 30vw)));
   }
 
   header,
 footer {
     display: grid;
-    grid-template-columns: repeat(3, minmax(160px, min(280px, 30vw)));
+    grid-template-columns: repeat(3, minmax(160px, min(256px, 30vw)));
     grid-template-rows: auto;
   }
 
