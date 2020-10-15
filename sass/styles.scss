@@ -65,10 +65,6 @@ ul {
     line-height: 195px;
 }
 
-.sixteen {
-    line-height: 123px;
-}
-
 .ten,
 .eleven,
 .twelve,
@@ -112,28 +108,29 @@ ul {
 
 //grids
 
-@media (min-width: 580px) {
+@media (min-width: 600px) {
     body {
         font-size: 18px;
+        max-width: 600px;
+    }
+
+    main {
+        grid-template-rows: repeat(16, 200px);
     }
 
     h1 {
-        font-size: 200px;
-        line-height: 197px;
+        font-size: 195px;
+        //line-height: 220px;
     }
 
     h2 {
-        font-size: 200px;
-        line-height: 124px;
+        font-size: 195px;
+        line-height: 150px;
     }
 
     .twentynineteen {
         letter-spacing: -15px;
         line-height: 195px;
-    }
-
-    .sixteen {
-        line-height: 123px;
     }
 
     .ten,
