@@ -14,8 +14,9 @@ body {
     background-color: darkgray;
     color: $blue;
     font-family: $font-sans;
-    margin: 0;
     font-size: 14px;
+    box-shadow: 30px 50px 10px grey;
+    margin: 0;
 }
 
 div {
@@ -54,6 +55,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, $square-cell);
     grid-template-rows: auto;
+    box-shadow: 30px 50px 10px grey;
 }
 
 ul {
@@ -321,6 +323,7 @@ ul {
     }
 
     .twentynineteen {
+        letter-spacing: -20px;
         line-height: 240px;
     }
 
@@ -398,7 +401,8 @@ ul {
     }
 
     .i1,
-    .i3 {
+    .i4,
+    .i6 {
         grid-row: 8/9;
     }
 
