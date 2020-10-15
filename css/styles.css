@@ -35,14 +35,14 @@ h3 {
 
 main {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, min(300px, 30vw)));
-  grid-template-rows: repeat(16, minmax(100px, min(300px, 30vw)));
+  grid-template-columns: repeat(3, minmax(100px, min(300px, 33vw)));
+  grid-template-rows: repeat(16, minmax(100px, min(300px, 33vw)));
 }
 
 header,
 footer {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, min(300px, 30vw)));
+  grid-template-columns: repeat(3, minmax(100px, min(300px, 33vw)));
   grid-template-rows: auto;
 }
 
@@ -252,14 +252,14 @@ ul {
 @media (min-width: 767px) {
   main {
     display: grid;
-    grid-template-columns: repeat(6, minmax(100px, min(300px, 30vw)));
-    grid-template-rows: repeat(8, minmax(100px, min(300px, 30vw)));
+    grid-template-columns: repeat(6, minmax(100px, min(300px, 33vw)));
+    grid-template-rows: repeat(8, minmax(100px, min(300px, 33vw)));
   }
 
   header,
 footer {
     display: grid;
-    grid-template-columns: repeat(6, minmax(100px, min(300px, 30vw)));
+    grid-template-columns: repeat(6, minmax(100px, min(300px, 33vw)));
     grid-template-rows: auto;
   }
 
@@ -345,14 +345,7 @@ footer {
 .d2,
 .e2,
 .f2,
-.g2,
-.a5,
-.b5,
-.c5,
-.d5,
-.e5,
-.f5,
-.g5 {
+.g2 {
     grid-column: 2/3;
   }
 
@@ -362,8 +355,32 @@ footer {
 .d3,
 .e3,
 .f3,
-.g3,
-.a6,
+.g3 {
+    grid-column: 3/4;
+  }
+
+  .a4,
+.b4,
+.c4,
+.d4,
+.e4,
+.f4,
+.g4,
+.i4 {
+    grid-column: 4/5;
+  }
+
+  .a5,
+.b5,
+.c5,
+.d5,
+.e5,
+.f5,
+.g5 {
+    grid-column: 5/6;
+  }
+
+  .a6,
 .b6,
 .c6,
 .d6,
@@ -371,6 +388,6 @@ footer {
 .f6,
 .g6,
 .i6 {
-    grid-column: 3/4;
+    grid-column: 6/7;
   }
 }
