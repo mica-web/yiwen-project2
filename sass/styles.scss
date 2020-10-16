@@ -79,6 +79,12 @@ ul {
     margin-left: -7px;
 }
 
+.i1,
+.i4 {
+    display: flex;
+    align-content: baseline;
+}
+
 //graphics
 
 .circle {
@@ -461,10 +467,6 @@ ul {
     .g6,
     .i6 {
         grid-column: 6/7;
-    }
-
-    .i1 {
-        grid-column: 1/3;
     }
 
     .i4 {
