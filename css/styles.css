@@ -183,7 +183,10 @@ ul {
   grid-row: 15/16;
 }
 
-.i4,
+.i4 {
+  grid-row: 16/17;
+}
+
 .i6 {
   grid-row: 16/17;
 }
